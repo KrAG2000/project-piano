@@ -1,43 +1,43 @@
 let NumberOfKeys = document.querySelectorAll(".common-key-class").length;
 console.log(NumberOfKeys);
 for (let i = 0; i < NumberOfKeys; i++) {
-    document.querySelectorAll(".common-key-class")[i].addEventListener("click", () => {
+    document.querySelectorAll(".common-key-class")[i].addEventListener("click", function() {
         let button = this.innerHTML;
         if (button != null) console.log(button);
         else console.log("Unable to get button value: ", button);
 
         switch (button) {
             case "CsDb":
-                let CsDb = new Audio("./resources/piano-c_Cs_major.mp3");
+                let CsDb = new Audio("./resources/piano-mp3/Db3.mp3");
                 CsDb.play();
                 break;
 
             case "DsEb":
-                let DsEb = new Audio("./resources/piano-e_Ds_major.mp3");
+                let DsEb = new Audio("./resources/piano-mp3/Eb3.mp3");
                 DsEb.play();
                 break;
 
             case "FsGb":
-                let FsGb = new Audio("./resources/piano-f_Fs_major.mp3");
+                let FsGb = new Audio("./resources/piano-mp3/Gb3.mp3");
                 FsGb.play();
                 break;
             case "GsAb":
-                let GsAb = new Audio("./resources/piano-g_Gs_major.mp3");
+                let GsAb = new Audio("./resources/piano-mp3/Ab3.mp3");
                 GsAb.play();
                 break;
 
             case "AsBb":
-                let AsBb = new Audio("./resources/piano-b_As_major.mp3");
+                let AsBb = new Audio("./resources/piano-mp3/Bb3.mp3");
                 AsBb.play();
                 break;
 
             case "CsDb_hp":
-                let CsDb_hp = new Audio("./resources/piano-c_Cs_major.mp3");
+                let CsDb_hp = new Audio("./resources/piano-mp3/Db4.mp3");
                 CsDb_hp.play();
                 break;
 
             case "DsEb_hp":
-                let DsEb_hp = new Audio("./resources/piano-e_Ds_major.mp3");
+                let DsEb_hp = new Audio("./resources/piano-mp3/Eb4.mp3");
                 DsEb_hp.play();
                 break;
 
@@ -67,12 +67,12 @@ for (let i = 0; i < NumberOfKeys; i++) {
                 break;
 
             case "A-Flat":
-                let Af = new Audio("./resources/piano-mp3/A4.mp3");
+                let Af = new Audio("./resources/piano-mp3/A3.mp3");
                 Af.play();
                 break;
 
             case "B-Flat":
-                let Bf = new Audio("./resources/piano-mp3/B4.mp3");
+                let Bf = new Audio("./resources/piano-mp3/B3.mp3");
                 Bf.play();
                 break;
 
@@ -129,12 +129,12 @@ document.addEventListener("keydown", (event) => {
             break;
 
         case "h":
-            let Af = new Audio("./resources/piano-mp3/A4.mp3");
+            let Af = new Audio("./resources/piano-mp3/A3.mp3");
             Af.play();
             break;
 
         case "j":
-            let Bf = new Audio("./resources/piano-mp3/B4.mp3");
+            let Bf = new Audio("./resources/piano-mp3/B3.mp3");
             Bf.play();
             break;
 
@@ -169,12 +169,12 @@ document.addEventListener("keydown", (event) => {
             break;
 
         case "y":
-            let GsAb = new Audio("./resources/piano-mp3/Ab4.mp3");
+            let GsAb = new Audio("./resources/piano-mp3/Ab3.mp3");
             GsAb.play();
             break;
 
         case "u":
-            let AsBb = new Audio("./resources/piano-mp3/Bb4.mp3");
+            let AsBb = new Audio("./resources/piano-mp3/Bb3.mp3");
             AsBb.play();
             break;
 
