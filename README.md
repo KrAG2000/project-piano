@@ -1,7 +1,7 @@
 # project-piano
-A playable 17 keys pianos
+A 17 keys piano playable with keyboard
 
-It is a simple piano having 17 keys and which have keys enough to play 1 octave(more than 1 actually). It can be played by clicking on the keys using mouse/touchpad or keyboard whose key configuration can be found below.
+It's a basic piano with 17 keys, offering more than enough to play a full octave. You can play it by clicking the keys with a mouse or touchpad, or by using a keyboard, with the key configuration provided below.
 
 ```
   Keys    w   e       t   y   u       o   p
@@ -9,5 +9,3 @@ It is a simple piano having 17 keys and which have keys enough to play 1 octave(
   Keys  a   s   d   f   g   h   j   k   l   ;
   Note  C   D   E   F   G   A   B   C   D   E
 ```
-
-Do read about music notes to know what above thing mean.
